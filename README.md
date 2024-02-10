@@ -1,11 +1,13 @@
-# <img alt="Java" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" /> Projeto realizado durante o evento nlw Expert Java
+# <img alt="Java" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" /> Projeto realizado durante o evento nlw Expert Java da [Rocketseat](https://www.rocketseat.com.br/)
+
 ![Estrutura](./assets/Wallpaper%20-%202560x1080.png)
 
-#### Desenvolvimento de uma aplicação completa com Springboot, onde o estudante insere o e-mail e a tecnologia, consegue realizar uma prova e conquistar sua certificação com a nota inserida e por fim teremos um ranking dos 10 melhores alunos.
+Desenvolvimento de uma aplicação completa com Springboot, onde o estudante insere o e-mail e a tecnologia, consegue realizar uma prova e conquistar sua certificação com a nota inserida e por fim teremos um ranking dos 10 melhores alunos.
 
+## ✅ Estrutura inicial
 ![Estrutura](./assets/Estrutura.png)
 
-## Funcionalidades
+## ✅ Funcionalidades
 - [Listar as questões e suas respectivas alternativas](#listar-alternativas)<a name="retornar-ao-índice"></a>
 - [Verificar se o estudante já possui uma certificação](#verificar-certificacao)
 - [Realizar prova](#relizar-prova)
