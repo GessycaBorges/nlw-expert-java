@@ -4,16 +4,22 @@
 
 Desenvolvimento de uma aplicação completa com Springboot, onde o estudante insere o e-mail e a tecnologia, consegue realizar uma prova e conquistar sua certificação com a nota inserida e por fim teremos um ranking dos 10 melhores alunos.
 
+---
+
 ## ✅ Estrutura inicial
 ![Estrutura](./assets/Estrutura.png)
 
-## ✅ Funcionalidades
+---
+
+## ⚙️ Funcionalidades
 - [Listar as questões e suas respectivas alternativas](#listar-alternativas)<a name="retornar-ao-índice"></a>
 - [Verificar se o estudante já possui uma certificação](#verificar-certificacao)
 - [Realizar prova](#relizar-prova)
 - [Ranking Top 10](#ranking-top10)
 
-## ✅ Endpoints
+---
+
+## 📌 Endpoints
 `GET` `/questions/technology/{technology}` <a name="listar-alternativas"></a>
 > Inserimos a tecnologia que queremos obter a certificação
 
@@ -110,13 +116,13 @@ Exemplo de requisição:
 
 Exemplo de resposta, caso o aluno não tenha realizado a prova:
 
-```JSON
+```
 Usuário pode fazer a prova
 ```
 
 Exemplo de resposta, caso o aluno já tenha realizado a prova:
 
-```JSON
+```
 Usuário já fez a prova
 ```
 [![Retornar ao índice](https://img.shields.io/badge/Retornar%20ao%20%C3%ADndice-Verde%20Escuro?color=%23006400&style=flat&labelColor=%23006400&logo=github)](#retornar-ao-índice)
@@ -194,7 +200,7 @@ Exemplo de resposta, caso o aluno não tenha realizado a prova:
 
 Exemplo de resposta, caso o aluno já tenha realizado a prova:
 
-```JSON
+```
 Você já tirou sua certificação!
 ```
 [![Retornar ao índice](https://img.shields.io/badge/Retornar%20ao%20%C3%ADndice-Verde%20Escuro?color=%23006400&style=flat&labelColor=%23006400&logo=github)](#retornar-ao-índice)
@@ -274,3 +280,23 @@ Exemplo com apenas 5 provas realizadas, mostra os resultados de forma decrescent
 ]
 ```
 [![Retornar ao índice](https://img.shields.io/badge/Retornar%20ao%20%C3%ADndice-Verde%20Escuro?color=%23006400&style=flat&labelColor=%23006400&logo=github)](#retornar-ao-índice)
+
+---
+
+## 💡 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+
+---
+
+## 🧙🏽‍♀️ Autora
+
+<a href="https://www.linkedin.com/in/gessycaborges/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/124705468?v=4" width="100px;" alt=""/><br />
+ <sub><a>Gessyca Borges</a></sub></a> <a href="https://www.linkedin.com/in/gessycaborges/" title="Gessyca">✨</a>
+ <br />
+
+ ---
