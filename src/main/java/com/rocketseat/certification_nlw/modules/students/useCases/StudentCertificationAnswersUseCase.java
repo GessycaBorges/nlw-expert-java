@@ -36,7 +36,7 @@ public class StudentCertificationAnswersUseCase {
     public CertificationStudentEntity execute(StudentCertificationAnswerDTO dto) throws Exception {
 
         var hasCertification = this.verifyHasCertificationUseCase
-                .execute(new VerifyHasCertificationDTO(dto.getEmail(), dto.getTechnology()));
+            .execute(new VerifyHasCertificationDTO(dto.getEmail(), dto.getTechnology()));
 
         if (hasCertification) {
             throw new Exception("Você já tirou sua certificação!");
@@ -45,7 +45,7 @@ public class StudentCertificationAnswersUseCase {
         List<QuestionsEntity> questionsEntity = questionRepository.findByTechnology(dto.getTechnology());
         List<AnswersCertificationsEntity> answersCertifications = new ArrayList<>();
 
-        AtomicInteger correctAnswers = new AtomicInteger();
+        AtomicInteger correctAnswers = new AtomicInteger(0);
 
         dto.getQuestionsAnswers()
                 .stream().forEach(questionAnswer -> {
